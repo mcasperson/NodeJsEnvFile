@@ -1,3 +1,4 @@
+require('dotenv').config();
 const http = require('http');
 
 const port = parseInt(process.env.PORT, 10) || 5000;
