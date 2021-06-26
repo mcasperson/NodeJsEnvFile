@@ -1,6 +1,6 @@
 const http = require('http');
 
-const port = parseInt(process.env.PORT) || 5000;
+const port = parseInt(process.env.PORT, 10) || 5000;
 const name = process.env.NAME || "LogRocket"
 
 http.createServer((request, response) => {
