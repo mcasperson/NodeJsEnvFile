@@ -2,9 +2,7 @@ require('dotenv').config();
 const http = require('http');
 
 const port = parseInt(process.env.PORT, 10) || 5000;
-const name = process.env.MYNAME || "LogRocket"
-
-console.log(port)
+const name = process.env.MYNAME || "Matthew"
 
 http.createServer((request, response) => {
     response.writeHead(200, {
